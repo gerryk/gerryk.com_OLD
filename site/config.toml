@@ -3,9 +3,9 @@ baseurl = "/"
 languageCode = "en-gb"
 title = "Strata"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "gerryk.com"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "ca-pub-869976900258891"
 # Define how many posts should appear on a site
 paginate = 10
 
@@ -30,15 +30,15 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**I'm Gerry**, a dad, coder<br>security researcher<br>ham radio op<br>electronics hobbyist<br>all round hacker..."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
+		twitter = "gerryk"
+		github = "gerryk"
+			#£gitlab = "spf13"
+			#dribbble = ""
+		facebook = "gerry.kavanagh"
+			#googleplus = ""
+			#flickr = ""
 		linkedin = ""
 
 		copyright = [
@@ -50,12 +50,12 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Wherein I blog about stuff that interests me..."
+		content = "I am a software developer of roughly 30 years experience. I do much of my coding these days in Python. I also like retro-computing, microcontrollers, ham radio & telecommunication, camping & gardening."
 
 
 	[params.portfolio]
-		hide  = false
+		hide  = true
 		title = "Recent Work"
 
 		# The images and thumbnails are stored under static/images
@@ -103,14 +103,14 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		content = "Feel free to get in touch about anything I have posted, or for any otehr reason.."
 
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"Oranmore.",
+			"Galway,",
+			"Eire"
 		]
 		phone = "000-000-0000"
 
@@ -130,8 +130,8 @@ paginate = 10
 		[params.contact.form]
 			# Set custom strings for the form if your native
 			# language isn't English
-			name = "Name"
-			email = "Email"
+			name = "Gerry Kavanagh"
+			email = "gerryk@gmail.com"
 			message = "Message"
 			submit = "Send message"
 
